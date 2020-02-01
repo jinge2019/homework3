@@ -1,0 +1,131 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+  color: black;
+  font-family: 'Andika', sans-serif;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  text-align: center;
+  padding-top: 10px;
+  background-image: url(https://jinge2019.github.io/homework3/images/pigeon-background.JPEG);
+  background-color: #DDDDDD;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #8000FF;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  color: black;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+a{
+  color: #B21F50;
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #0000FF;
+}
+
+table{
+    border-radius: 15px;
+    border: 2px solid black;
+    border-collapse: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.colhead{
+  background-color: #7e0820;
+  color: white;
+}
+
+.rowhead{}
+
+td{
+  padding: 15px;
+  border-top: 2px solid black;
+}
+
+tbody tr, th{
+  border-top: 2px solid black;
+  padding: 15px;
+}
+
+thead th {
+  width: 100px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color:#7e0820;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #D1D1D1;
+}
+tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+tbody tr:hover {
+  background-color: rgba(126,8,32,0.5);
+}
+
+*{}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 15px;
+}
+thead tr:first-child th:last-child{
+  border-top-right-radius: 15px;
+}
+tbody tr:last-child th{
+  border-bottom-left-radius: 15px;
+}
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 15px;
+}
+
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  height: 60px;
+  background:black;
+  text-align:center;
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+a:focus {
+  border: 2px solid black;
+}
